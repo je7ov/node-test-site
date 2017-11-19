@@ -1,0 +1,177 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Lato', sans-serif;  
+}
+
+a {
+  color: #00B7FF;
+}
+
+p {
+  line-height: 130%;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 102px;
+}
+
+.container {
+  min-height: 100%;  
+  position: relative;
+}
+
+/* ---------- */
+/* NAV STYLES */
+/* ---------- */
+.nav {
+  height: 80px;
+  background-color: #888;
+  padding: 8px 24px;
+  color: #eee;
+}
+
+.nav-content {
+  max-width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  color: #eee;
+  text-decoration: none;
+}
+
+.nav-section {
+  background-color: #555;
+  padding: 8px 12px;
+  margin: 0 4px;
+}
+
+.nav-section:hover {
+  background-color: #333;
+}
+
+.nav-section h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-logo {
+  height: 80px;
+  width: 80px;
+  margin-right: 24px;
+}
+/* END NAV STYLES */
+
+/* ----------------- */
+/* INDEX PAGE STYLES */
+/* ----------------- */
+.jumbotron {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #eee;
+  margin-top: 22px;
+}
+
+.jumbotron h1 {
+  font-size: 3.2em;
+  font-weight: 900;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.jumbotron h2 {
+  margin: 0;
+}
+
+#section1 {
+  padding: 64px;
+  background-color: #fafafa;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+/* END INDEX PAGE STYLES */
+
+/* ------------- */
+/* FOOTER STYLES */
+/* ------------- */
+#footer {
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 8px 0;
+  background-color: #888;
+  color: #eee;
+}
+
+#footer-content {
+  max-width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* END FOOTER STYLES */
+
+/* ----------- */
+/* LIST STYLES */
+/* ----------- */
+.list {
+  width: auto;
+  display: flex;
+  margin-top: 16px;
+  overflow-x: auto;
+}
+
+.list-item {
+  background-color: #eee;
+  padding: 0 24px;
+  margin: 4px;
+  text-decoration: none;
+  color: #444;
+}
+
+.list-item:hover {
+  background-color: #ccc;
+}
+
+.list-item.selected {
+  background-color: #aaa;
+}
+/* END LIST STYLES */
+
+/* ------------------ */
+/* PERSON LIST STYLES */
+/* ------------------ */
+.person-list {
+  margin-bottom: 12px;
+}
+
+.person-card {
+  width: 30%;
+  margin: 8px 0.666%;
+  padding: 8px 1%;
+  display: inline-block;
+  background-color: #ccc;
+}
+
+.person-card img {
+  width: 64px;
+  height: 64px;
+  float: left;
+  margin-right: 12px;
+}
+
+.person-card h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+/* END PERSON LIST STYLES */

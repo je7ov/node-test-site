@@ -1,0 +1,25 @@
+extends layout
+
+block content
+    .list
+        mixin listItem(item)
+            - var isCurrent = item.id == current
+            a.list-item(href=isCurrent ? '#' : `?list=${item.id}`, class=isCurrent ? "list-item selected" : "list-item")
+                h3= item.title
+
+        for item in dataList
+            +listItem(item)        
+    
+    if list
+        .person-list
+            mixin person(person)
+                .person-card
+                    img(src=person.picture, alt=`${person.name} profile picture`)
+                    h3= person.name
+                    h4 Age: #{person.age}
+                    h4 Status: #{person.isActive ? "Online" : "Offline"}
+                    
+
+            for person in list
+                +person(person)
+            
